@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aureum Ascend Hero</title>
+    <meta
+      name="description"
+      content="A cinematic luxury hero section for Aureum, built from a clean mythic background plate."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__plate" aria-hidden="true">
+          <div class="plate plate--fallback"></div>
+          <div class="plate plate--image"></div>
+          <div class="plate plate--mist"></div>
+          <div class="plate plate--shade"></div>
+          <div class="plate plate--grain"></div>
+        </div>
+
+        <header class="hero__nav" aria-label="Primary navigation">
+          <a class="brand" href="#" aria-label="Aureum home">
+            <span>Aureum</span>
+            <small>MMXXIV</small>
+          </a>
+
+          <nav class="nav-links" aria-label="Aureum sections">
+            <a href="#realm">Realm</a>
+            <a href="#vision">Vision</a>
+            <a href="#mythos">Mythos</a>
+            <a href="#house">House</a>
+          </nav>
+
+          <button class="sigil-button" type="button" aria-label="Open celestial index">
+            <span></span>
+          </button>
+        </header>
+
+        <div class="hero__side hero__side--left" aria-hidden="true">
+          <span>Power beyond mortality</span>
+        </div>
+
+        <div class="hero__side hero__side--right" aria-hidden="true">
+          <span>MMXXIV</span>
+          <i></i>
+          <span>Aeternum</span>
+        </div>
+
+        <div class="hero__copy">
+          <p>Power beyond<br />mortality</p>
+        </div>
+
+        <h1 class="hero__title" id="hero-title" aria-label="Ascend">Ascend</h1>
+        <div class="hero__foreground" aria-hidden="true"></div>
+
+        <div class="hero__crosshair hero__crosshair--left" aria-hidden="true"></div>
+        <div class="hero__crosshair hero__crosshair--right" aria-hidden="true"></div>
+
+        <footer class="hero__footer">
+          <div class="collection-mark" aria-label="Celestial Order Collection One">
+            <span class="sun-mark" aria-hidden="true"></span>
+            <span>Celestial Order<br />Collection I</span>
+          </div>
+
+          <a class="realm-link" href="#realm">
+            <span>Enter the realm</span>
+            <i aria-hidden="true"></i>
+          </a>
+        </footer>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
